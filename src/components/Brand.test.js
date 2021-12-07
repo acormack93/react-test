@@ -3,14 +3,19 @@ import {shallow} from 'enzyme';
 import { Marker } from 'react-leaflet';
 import Brand from './Brand';
 
-test('renders learn react link', () => {
-  render(<Brand brandName="Kick ass brand"/>);
-  const linkElement = screen.getByText(/Kick ass brand/i);
-  expect(linkElement).toBeInTheDocument();
-});
 
-test('opens link to URL on click', () => {
-  const wrapper = shallow(<Brand brandName="Kick ass brand"/>);
-  expect(wrapper.find(Marker)).toBeTruthy()
-});
 
+describe('Brand Component', () => {
+  const mockLoc = {lat: 1, long: 1}
+  let wrapper = shallow(<Brand brandName="Kick ass brand" location={mockLoc}/>);
+
+
+  it('renders learn react link', () => {
+    expect(wrapper.text().includes("Kick ass brand")).toBeTruthy();
+  });
+  
+  it('opens link to URL on click', () => {
+    expect(wrapper.find(Marker)).toBeTruthy()
+  });
+
+});

@@ -9,19 +9,18 @@ class List extends Component {
   }
 
   componentDidMount() {
-    this.setState({list: [
-      {id: 'a', name: 'Brand A'},
-      {id: 'b', name: 'Brand B'},
-      {id: 'c', name: 'Brand C'},
-      {id: 'd', name: 'Brand D'},
-    ]})
+    fetch('http://localhost:3004/brands')
+    .then((response) => response.json())
+    .then(list => {
+      this.setState({list: list})
+    });
   }
 
   render() {
     return (
       <div className="List">
          {
-          this.state.list.map((el, index) => <Brand key={index} brandName={el.name}/>)
+          this.state.list.map((el, index) => <Brand key={index} brandName={el.brandName} location={el.location}/>)
         }
       </div>
     );
