@@ -1,0 +1,8 @@
+{
+  "brands": [
+    { "id": "a9ebeb9a-8d0b-41f6-9123-cf12dc1c8fae", "brandName": "Brand 1", "location": {"lat": 51.505, "long": -0.9}},
+    { "id": "a5b5876e-ad65-4260-8c3d-64fe6cb57bb3", "brandName": "Brand 2", "location": {"lat": 51.505, "long": -0.9}},
+    { "id": "9fd7ed19-1dbf-11ea-b97e-02c6bf374af0", "brandName": "Brand 3", "location": {"lat": 51.505, "long": -0.9}},
+    { "id": "700557f9-b39a-415c-ac8b-be66e825ef8d", "brandName": "Brand 4", "location": {"lat": 51.505, "long": -0.9}}
+  ]
+}
