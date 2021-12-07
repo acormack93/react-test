@@ -14,10 +14,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm serve:mockbackend`
+In order to access the Huggg api data, you will need to create a scerets.js file in the root directory e.g.
 
-This uses json-server to provide an API containing the data in db.json. This needs to be running to serve the app with data!
-It serves the data on [http://localhost:3004](http://localhost:3004) 
+```
+export const clientId = "a";
+export const clientSecret = "c";
+export const clientURL = "https://d"
+```
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

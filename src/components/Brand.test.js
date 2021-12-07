@@ -6,7 +6,12 @@ import Brand from './Brand';
 
 describe('Brand Component', () => {
   const mockLoc = {lat: 1, long: 1}
-  let wrapper = shallow(<Brand brandName="Kick ass brand" location={mockLoc} desc="test"/>);
+  let wrapper = shallow(<Brand
+    brandName="Kick ass brand"
+    brandStores={[{latitude: 1, longitude: 0, id: '1'}]}
+
+    website="https://test.com"/>
+    );
 
 
   it('renders learn react link', () => {

@@ -6,7 +6,14 @@ describe('List Component', () => {
   let f = global.fetch;
   global.fetch = jest.fn(() =>
     Promise.resolve({
-      json: () => Promise.resolve([ { "id": "a9ebeb9a-8d0b-41f6-9123-cf12dc1c8fae", "brandName": "Brand 1", "location": {"lat": 51.505, "long": -0.9}}]),
+      json: () => Promise.resolve({
+        data: [
+          {id: '1', name: 'Brand 1', stores: ['a'], website: 'www.a.com' }
+        ],
+        embedded: {stores: [
+          {id: 'a', latitude: 1, longitude: 1}
+        ]}
+      }),
     })
   );
 
