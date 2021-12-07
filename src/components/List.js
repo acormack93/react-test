@@ -20,7 +20,7 @@ class List extends Component {
     return (
       <div className="List">
          {
-          this.state.list.map((el, index) => <Brand key={index} brandName={el.brandName} location={el.location}/>)
+          this.state.list.map((el, index) => <Brand key={index} brandName={el.brandName} location={el.location} brandDesc={el.desc}/>)
         }
       </div>
     );

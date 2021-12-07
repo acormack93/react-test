@@ -1,8 +1,43 @@
 {
-  "brands": [
-    { "id": "a9ebeb9a-8d0b-41f6-9123-cf12dc1c8fae", "brandName": "Brand 1", "location": {"lat": 51.505, "long": -0.9}},
-    { "id": "a5b5876e-ad65-4260-8c3d-64fe6cb57bb3", "brandName": "Brand 2", "location": {"lat": 53.958332, "long": -1.080278}},
-    { "id": "9fd7ed19-1dbf-11ea-b97e-02c6bf374af0", "brandName": "Brand 3", "location": {"lat": 52.192001, "long": -2.220000}},
-    { "id": "700557f9-b39a-415c-ac8b-be66e825ef8d", "brandName": "Brand 4", "location": {"lat": 51.063202, "long": -1.308000}}
+  "brands":[
+     {
+        "id":"a9ebeb9a-8d0b-41f6-9123-cf12dc1c8fae",
+        "brandName":"Brand 1",
+        "location":{
+           "lat":51.505,
+           "long":-0.9
+        },
+        "desc": "Chewbacca darth solo jawa calamari. Amidala palpatine zabrak wicket jabba. Vader darth hutt dagobah. Skywalker hutt darth sebulba droid darth solo skywalker jinn. Windu wedge fisto tatooine. Calrissian ponda moff owen. Wicket dantooine fett sidious skywalker organa. Yoda antilles owen mustafar r2-d2 solo obi-wan. Naboo windu maul ponda ackbar k-3po. Dantooine jabba c-3po jinn luke. Mon windu thrawn sidious luke kashyyyk greedo. Calrissian skywalker jabba wampa skywalker. Skywalker solo organa organa kit."
+     },
+     {
+        "id":"a5b5876e-ad65-4260-8c3d-64fe6cb57bb3",
+        "brandName":"Brand 2",
+        "location":{
+           "lat":53.958332,
+           "long":-1.080278
+        },
+        "desc": "Chewbacca darth solo jawa calamari. Amidala palpatine zabrak wicket jabba. Vader darth hutt dagobah. Skywalker hutt darth sebulba droid darth solo skywalker jinn. Windu wedge fisto tatooine. Calrissian ponda moff owen. Wicket dantooine fett sidious skywalker organa. Yoda antilles owen mustafar r2-d2 solo obi-wan. Naboo windu maul ponda ackbar k-3po. Dantooine jabba c-3po jinn luke. Mon windu thrawn sidious luke kashyyyk greedo. Calrissian skywalker jabba wampa skywalker. Skywalker solo organa organa kit."
+     
+     },
+     {
+        "id":"9fd7ed19-1dbf-11ea-b97e-02c6bf374af0",
+        "brandName":"Brand 3",
+        "location":{
+           "lat":52.192001,
+           "long":-2.220000
+        },
+        "desc": "Chewbacca darth solo jawa calamari. Amidala palpatine zabrak wicket jabba. Vader darth hutt dagobah. Skywalker hutt darth sebulba droid darth solo skywalker jinn. Windu wedge fisto tatooine. Calrissian ponda moff owen. Wicket dantooine fett sidious skywalker organa. Yoda antilles owen mustafar r2-d2 solo obi-wan. Naboo windu maul ponda ackbar k-3po. Dantooine jabba c-3po jinn luke. Mon windu thrawn sidious luke kashyyyk greedo. Calrissian skywalker jabba wampa skywalker. Skywalker solo organa organa kit."
+     
+     },
+     {
+        "id":"700557f9-b39a-415c-ac8b-be66e825ef8d",
+        "brandName":"Brand 4",
+        "location":{
+           "lat":51.063202,
+           "long":-1.308000
+        },
+        "desc": "Chewbacca darth solo jawa calamari. Amidala palpatine zabrak wicket jabba. Vader darth hutt dagobah. Skywalker hutt darth sebulba droid darth solo skywalker jinn. Windu wedge fisto tatooine. Calrissian ponda moff owen. Wicket dantooine fett sidious skywalker organa. Yoda antilles owen mustafar r2-d2 solo obi-wan. Naboo windu maul ponda ackbar k-3po. Dantooine jabba c-3po jinn luke. Mon windu thrawn sidious luke kashyyyk greedo. Calrissian skywalker jabba wampa skywalker. Skywalker solo organa organa kit."
+     
+     }
   ]
 }

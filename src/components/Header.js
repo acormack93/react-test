@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Header.css'
 
 class Header extends Component {
 
@@ -11,7 +12,7 @@ class Header extends Component {
     return (
       <div className="Header">
         <h1>{this.props.appName}</h1>
-        <div>Written by: <br/>
+        <div>Written by: <span> </span>
           <b testid='author-link' onClick={this.handleClick}>
             Alex Cormack-Widdop
           </b>

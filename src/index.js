@@ -13,6 +13,8 @@ ReactDOM.render(
   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
   crossOrigin=""
 />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
     <App />
   </React.StrictMode>,
   document.getElementById('root')

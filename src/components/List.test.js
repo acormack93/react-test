@@ -14,7 +14,7 @@ describe('List Component', () => {
 
 
   it('renders list of Brands', () => {
-    expect(wrapper.find(Brand).length).toBe(1)
+    expect(wrapper.find(Brand).length).toBe(1);
   });
 
   afterAll(() => {
